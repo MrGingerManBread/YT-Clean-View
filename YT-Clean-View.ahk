@@ -8,8 +8,8 @@
 #Requires AutoHotkey v2+ 64-bit
 #SingleInstance Ignore ; only allows a single older instance of this script (to allow older instance to finish)
 #NoTrayIcon
-#Include "D:\Google Drive\_ADMIN\SCRIPTS\_AHK SCRIPTS\UIA-v2-1.1.3\Lib\UIA.ahk"
-#Include "D:\Google Drive\_ADMIN\SCRIPTS\_AHK SCRIPTS\UIA-v2-1.1.3\Lib\UIA_Browser.ahk" ; both UIA includes needed to enable switching directly to particular browser tabs
+#Include <UIA>
+#Include <UIA_Browser> ; both includes need to be Descolada's v2 [https://github.com/Descolada/UIA-v2]
 
 ; DEFAULTS (shouldn't need to change any of these)
 winDir:=			EnvGet("windir") ; Used later to play notification sound
