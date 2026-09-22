@@ -12,4 +12,4 @@ NOTE: It might be good to turn off your default browser's autoplay media setting
 
 ### Current Issue:
 * Doesn't see some tab names sometimes especially if they are pinned. So added TRY command in a couple places.
-* Doesn't switch back to original tab most times. **WILL NEED SIGNIFICANT REFACTORING** *(with functions that don't use UIA_Browser)* **TO FIX THIS**
+* Doesn't switch back to original tab most times. **WILL NEED SIGNIFICANT REFACTORING TO FIX** *(use functions that don't use UIA_Browser)*
