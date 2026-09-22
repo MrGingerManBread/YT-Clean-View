@@ -11,4 +11,5 @@ NOTE: It might be good to turn off your default browser's autoplay media setting
 [Descolada's v2 of UIA and UIA Browser](https://github.com/Descolada/UIA-v2/tree/main)
 
 ### Current Issue:
-Doesn't see some tab names sometimes especially if they are pinned. So added TRY command in a couple places.
+* Doesn't see some tab names sometimes especially if they are pinned. So added TRY command in a couple places.
+* Doesn't switch back to original tab most times. **WILL NEED SIGNIFICANT REFACTORING** *(with functions that don't use UIA_Browser)* **TO FIX THIS**
